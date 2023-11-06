@@ -3,11 +3,6 @@
   (func (export "score") (param $x f32) (param $y f32) (result i32)
     (local $dist f32)
 
-    ;; Constants for circle radii
-    (f32.const 1.0)
-    (f32.const 5.0)
-    (f32.const 10.0)
-
     ;; Calculate distance from the point to the center using Pythagorean theorem
     (local.set $dist (f32.sqrt (f32.add (f32.mul (local.get $x) (local.get $x)) (f32.mul (local.get $y) (local.get $y)))))
 
