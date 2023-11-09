@@ -1,0 +1,20 @@
+# top-most EditorConfig file
+root = true
+
+# Visual Basic files
+[*.vb]
+
+# Set indent style to spaces
+indent_style = space
+
+# Set indent size to 4 spaces
+indent_size = 4
+
+# Use LF line endings
+end_of_line = lf
+
+# Trim trailing whitespace
+trim_trailing_whitespace = true
+
+# Ensure file ends with a newline
+insert_final_newline = true
