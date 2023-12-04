@@ -8,5 +8,9 @@ return function(values)
     return self.scores_list
   end
 
+  function HighScores:latest()
+    return self.scores_list[#self.scores_list]
+  end
+
   return HighScores
 end
