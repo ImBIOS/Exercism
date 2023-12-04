@@ -76,8 +76,7 @@ end
 
 -- Function to recite the whole song
 house.recite = function()
-    -- This function will concatenate all verses with a newline
-    -- You will implement this later
+    return table.concat(verses, "\n")
 end
 
 return house
